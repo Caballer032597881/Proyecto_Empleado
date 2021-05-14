@@ -1,0 +1,286 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header} data-pageid="{$pageid}" >{$pagetitlelabel emp_mstemp view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr>
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN TipoEmpleado_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TipoEmpleado}  r-vertical-field" data-fieldname="TipoEmpleado" data-signal-error-for="TipoEmpleado{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="TipoEmpleado" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_TipoEmpleado}">
+		
+		{BEGIN TipoEmpleado_label}{$label emp_mstemp TipoEmpleado }{END TipoEmpleado_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$TipoEmpleado_value}	</div>
+
+		
+</div>
+
+
+{END TipoEmpleado_fieldblock}
+											
+{BEGIN NoEmpleado_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_NoEmpleado}  r-vertical-field" data-fieldname="NoEmpleado" data-signal-error-for="NoEmpleado{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="NoEmpleado" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_NoEmpleado}">
+		
+		{BEGIN NoEmpleado_label}{$label emp_mstemp NoEmpleado }{END NoEmpleado_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$NoEmpleado_value}	</div>
+
+		
+</div>
+
+
+{END NoEmpleado_fieldblock}
+											
+{BEGIN NombreCompleto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_NombreCompleto}  r-vertical-field" data-fieldname="NombreCompleto" data-signal-error-for="NombreCompleto{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="NombreCompleto" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_NombreCompleto}">
+		
+		{BEGIN NombreCompleto_label}{$label emp_mstemp NombreCompleto }{END NombreCompleto_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$NombreCompleto_value}	</div>
+
+		
+</div>
+
+
+{END NombreCompleto_fieldblock}
+											
+{BEGIN DNI_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_DNI}  r-vertical-field" data-fieldname="DNI" data-signal-error-for="DNI{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="DNI" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_DNI}">
+		
+		{BEGIN DNI_label}{$label emp_mstemp DNI }{END DNI_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$DNI_value}	</div>
+
+		
+</div>
+
+
+{END DNI_fieldblock}
+											
+{BEGIN FechaNacimiento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_FechaNacimiento}  r-vertical-field" data-fieldname="FechaNacimiento" data-signal-error-for="FechaNacimiento{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="FechaNacimiento" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_FechaNacimiento}">
+		
+		{BEGIN FechaNacimiento_label}{$label emp_mstemp FechaNacimiento }{END FechaNacimiento_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$FechaNacimiento_value}	</div>
+
+		
+</div>
+
+
+{END FechaNacimiento_fieldblock}
+											
+{BEGIN SueldoBase_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_SueldoBase}  r-vertical-field" data-fieldname="SueldoBase" data-signal-error-for="SueldoBase{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="SueldoBase" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_SueldoBase}">
+		
+		{BEGIN SueldoBase_label}{$label emp_mstemp SueldoBase }{END SueldoBase_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$SueldoBase_value}	</div>
+
+		
+</div>
+
+
+{END SueldoBase_fieldblock}
+											
+{BEGIN EstadoEmpleado_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_EstadoEmpleado}  r-vertical-field" data-fieldname="EstadoEmpleado" data-signal-error-for="EstadoEmpleado{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="{$pageid}" data-field="EstadoEmpleado" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_EstadoEmpleado}">
+		
+		{BEGIN EstadoEmpleado_label}{$label emp_mstemp EstadoEmpleado }{END EstadoEmpleado_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$EstadoEmpleado_value}	</div>
+
+		
+</div>
+
+
+{END EstadoEmpleado_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							{mlang_message BACK_TO_LIST}			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							{mlang_message CLOSE_WINDOW}			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+									<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN edit_page_button}
+	<li data-itemtype="view_edit" data-itemid="view_edit" {$item_view_edit} data-pageid="{$pageid}" data-small >
+				<a  href="emp_mstemp_edit.php?{$editlink}" {$edit_page_button_attrs}  title="" >
+				
+		{mlang_message EDIT}		
+		</a>
+	</li>
+{END edit_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

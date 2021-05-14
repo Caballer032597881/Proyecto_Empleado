@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('inv_prueba',Runner.pages.constants.PAGE_LIST,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var num1=10;var num2=50;9*num1;num2/num1;;});Runner.pages.PageSettings.addPageEvent('inv_prueba',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var num1=10;var num2=50;9*num1;num2/num1;;});
